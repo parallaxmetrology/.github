@@ -8,7 +8,7 @@ Wherever a system generates structure (an image model arranging visual mass, a l
 
 | | |
 |---|---|
-| **[visual-thinking-lens](https://github.com/parallaxmetrology/visual-thinking-lens)** | Where visual mass sits in an image, how it spreads, and whether a generator ever leaves its default. Python package, CLI, notebooks. **[Try it in your browser →](https://parallaxmetrology.github.io/visual-thinking-lens/)** |
+| **[visual-thinking-lens](https://github.com/parallaxmetrology/visual-thinking-lens)** | Where visual mass sits in an image, how it spreads, and whether a generator ever leaves its default. Python package, CLI, notebooks, agent skills. **[Try it in your browser →](https://parallaxmetrology.github.io/visual-thinking-lens/)** · or play **[Where's the weight?](https://parallaxmetrology.github.io/visual-thinking-lens/weight/)** |
 
 More instruments (language-model output, materials, inspection imagery) will open here one at a time, each built the same way: faithful to its research notebooks, tested against them, and documented with what it *can't* see.
 
