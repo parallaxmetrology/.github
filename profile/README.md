@@ -13,8 +13,13 @@ Wherever a system generates structure (an image model arranging visual mass, a l
 | **[inspection-coordinates](https://github.com/parallaxmetrology/inspection-coordinates)** | Fifteen physics-grounded coordinates for semiconductor inspection images (SEM, wafer maps, aerial). No training; matches the best classical descriptors on public benchmarks, reproducible in minutes. Process-monitoring pilots welcome. |
 | **[spatial-kernel](https://github.com/parallaxmetrology/spatial-kernel)** | Is it really there? A deterministic two-view check of robot task outcomes on ordinary phone photos. A frontier robot VLM passed 10 of 18 printed decoys as real objects; the geometry caught all 10. **[Play: Real or printed? →](https://parallaxmetrology.github.io/spatial-kernel/)** |
 | **[structural-topology-kernel](https://github.com/parallaxmetrology/structural-topology-kernel)** | Fifty training-free structural coordinates for microstructure images, with a matminer featurizer. 0.832 AUC on steel micrographs grouped by specimen (HOG 0.728); the classification, bainite and permeability results reproduce from shipped feature tables. |
+| **[notan](https://github.com/parallaxmetrology/notan)** | The big light and dark shapes of a picture, read the way a painter squints, and which parts of it are built from value and which from colour. Texture-robust; nine test images with known answers ship with it. |
 
 More instruments (materials and others) will open here one at a time, each built the same way: faithful to its research notebooks, tested against them, and documented with what it *can't* see.
+
+## Notes on method
+
+- **[How image measures lie quietly](https://www.parallaxmetrology.com/how_measures_lie.html)** ([code](https://github.com/parallaxmetrology/how-measures-lie)): nineteen ways a hand-built image measure returns a plausible, wrong number without raising an error, each with a case, a live demonstration and the check that catches it.
 
 ## Get involved
 
