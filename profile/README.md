@@ -2,7 +2,7 @@
 
 **Structure has geometry. Measure it.**
 
-Wherever a system generates structure (an image model arranging visual mass, a language model producing text, tissue organizing under a microscope), that structure has geometry, and geometry can be measured without knowing what the output means. Parallax Metrology builds deterministic structural instruments: no model in the loop, same input, same output, every coordinate traceable to countable evidence.
+Wherever a system generates structure (an image model arranging visual mass, a language model producing text, tissue organizing under a microscope), that structure has geometry, and geometry can be measured without knowing what the output means. Parallax Metrology builds deterministic structural instruments: no model inside the measurement, same input, same output, every coordinate traceable to countable evidence. Where a benchmark result comes from a fitted readout on those coordinates (a classifier or regressor), the repository says which.
 
 ## Open instruments
 
@@ -16,11 +16,12 @@ Wherever a system generates structure (an image model arranging visual mass, a l
 | **[notan](https://github.com/parallaxmetrology/notan)** | The big light and dark shapes of a picture, read the way a painter squints, and which parts of it are built from value and which from colour. Texture-robust; nine test images with known answers ship with it. |
 | **[notan-route](https://github.com/parallaxmetrology/notan-route)** | The order in which a picture's Notan masses lead from one to the next, and the transition field behind it: which masses lead to which, and the basins they drain into. A property of the mass map, with no claim about eyes; ten known-answer gates. |
 
-More instruments (materials and others) will open here one at a time, each built the same way: faithful to its research notebooks, tested against them, and documented with what it *can't* see.
+More instruments (pathology and others) will open here one at a time, each built the same way: faithful to its research notebooks, tested against them, and documented with what it *can't* see.
 
 ## Notes on method
 
 - **[How image measures lie quietly](https://www.parallaxmetrology.com/how_measures_lie.html)** ([code](https://github.com/parallaxmetrology/how-measures-lie)): nineteen ways a hand-built image measure returns a plausible, wrong number without raising an error, each with a case, a live demonstration and the check that catches it.
+- **[he-checks](https://github.com/parallaxmetrology/he-checks)**: two quiet failures in H&E pathology pipelines. A Macenko stain normaliser whose haematoxylin and eosin vectors collapse into one direction through an SVD sign convention (0.17° apart in our own TCGA work, about 14° once fixed), and 25 TCGA colorectal slides whose stated pixel spacing is about 2× too fine. A check, a sign-safe estimator and the slide list.
 
 ## Get involved
 
