@@ -23,6 +23,12 @@ More instruments (pathology and others) will open here one at a time, each built
 - **[How image measures lie quietly](https://www.parallaxmetrology.com/how_measures_lie.html)** ([code](https://github.com/parallaxmetrology/how-measures-lie)): nineteen ways a hand-built image measure returns a plausible, wrong number without raising an error, each with a case, a live demonstration and the check that catches it.
 - **[he-checks](https://github.com/parallaxmetrology/he-checks)**: two quiet failures in H&E pathology pipelines. A Macenko stain normaliser whose haematoxylin and eosin vectors collapse into one direction through an SVD sign convention (0.17° apart in our own TCGA work, about 14° once fixed), and 25 TCGA colorectal slides whose stated pixel spacing is about 2× too fine. A check, a sign-safe estimator and the slide list.
 
+## Also here
+
+- **[structural-collocation](https://github.com/parallaxmetrology/structural-collocation)**: a study. Triple collocation on the geometry of the rain field (radar, GOES-16 infrared, IMERG microwave, gauges): which observer looks best depends on which three are compared, and shared error can be detected without ground truth.
+- **[paint-mixing](https://github.com/parallaxmetrology/paint-mixing)**: a tool for painters. Kubelka–Munk mixing for the questions asked at the palette: what to add to a pile that is almost right, whether your tubes can reach a colour, and one shared palette for a value plan.
+- **[shan-shui-inf](https://github.com/parallaxmetrology/shan-shui-inf)**: a play piece. A fork of [Lingdong Huang's {Shan, Shui}*](https://github.com/LingDong-/shan-shui-inf) infinite landscape scroll, drawn in learned hands (Shen Zhou, Shitao, Buson, Rembrandt, Van Gogh and more). Same seed, same landscape, different hand. **[Scroll it →](https://parallaxmetrology.com/shan-shui/)**
+
 ## Get involved
 
 - Measure something and share the fingerprint ([images](https://github.com/parallaxmetrology/visual-thinking-lens/discussions), [text](https://github.com/parallaxmetrology/linguistic-kernel/discussions), [robot scenes](https://github.com/parallaxmetrology/spatial-kernel/discussions)).
