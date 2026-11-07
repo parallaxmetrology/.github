@@ -22,7 +22,7 @@ More instruments (pathology and others) will open here one at a time, each built
 ## Notes on method
 
 - **[How image measures lie quietly](https://www.parallaxmetrology.com/how_measures_lie.html)** ([code](https://github.com/parallaxmetrology/how-measures-lie)): nineteen ways a hand-built image measure returns a plausible, wrong number without raising an error, each with a case, a live demonstration and the check that catches it.
-- **[he-checks](https://github.com/parallaxmetrology/he-checks)**: two quiet failures in H&E pathology pipelines. A Macenko stain normaliser whose haematoxylin and eosin vectors collapse into one direction through an SVD sign convention (0.17° apart in our own TCGA work, about 14° once fixed), and 25 TCGA colorectal slides whose stated pixel spacing is about 2× too fine. A check, a sign-safe estimator and the slide list.
+- **[he-checks](https://github.com/parallaxmetrology/he-checks)**: quiet failures in H&E pathology pipelines and datasets. A Macenko stain normaliser whose haematoxylin and eosin vectors collapse into one direction through an SVD sign convention (0.17° apart in our own TCGA work, about 14° once fixed), 25 TCGA colorectal slides whose stated pixel spacing is about 2× too fine (with their enlarged tiles in the Kather TCGA tile archive), and purple "blank glass" in every background tile of the CRC-VAL-HE-7K benchmark. Checks, a sign-safe estimator and the slide list.
 
 ## Also here
 
