@@ -29,6 +29,7 @@ More instruments (pathology and others) will open here one at a time, each built
 
 - **[structural-collocation](https://github.com/parallaxmetrology/structural-collocation)**: a study. Triple collocation on the geometry of the rain field (radar, GOES-16 infrared, IMERG microwave, gauges): which observer looks best depends on which three are compared, and shared error can be detected without ground truth.
 - **[paint-mixing](https://github.com/parallaxmetrology/paint-mixing)**: a tool for painters. Kubelka–Munk mixing for the questions asked at the palette: what to add to a pile that is almost right, whether your tubes can reach a colour, and one shared palette for a value plan.
+- **[grisaille](https://github.com/parallaxmetrology/grisaille)**: a tool for painters. Plan the values (2, 3 or 5), let Stable Diffusion + ControlNet paint over them on your own machine, and get a receipt of what held: which values stayed apart, merged or swapped, and which shapes were lost. Variants are ranked by the receipt, lost shapes can be repaired in place, and an edited plan is repainted only where it changed.
 - **[shan-shui-inf](https://github.com/parallaxmetrology/shan-shui-inf)**: a play piece. A fork of [Lingdong Huang's {Shan, Shui}*](https://github.com/LingDong-/shan-shui-inf) infinite landscape scroll, drawn in learned hands (Shen Zhou, Shitao, Buson, Rembrandt, Van Gogh and more). Same seed, same landscape, different hand. **[Scroll it →](https://parallaxmetrology.com/shan-shui/)**
 
 ## Get involved
